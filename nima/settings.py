@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-d0nxfg5y*l6o15-%0r5w@^8-_8r2v0l*hp51&19qddo3k7#pfz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nimajewelry.herokuapp.com']
 
 
 # Application definition
